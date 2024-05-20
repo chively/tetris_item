@@ -1,5 +1,6 @@
 
-// 보드에 완성된 행이 있으면 삭제 -> 밑에서부터 3줄 지우는 아이템
+// 보드에 완성된 행이 있으면 삭제 -> 블럭 초기화??
+
     void CheckBoardColumn()
     {
         bool isCleared = false;
