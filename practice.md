@@ -30,5 +30,13 @@
         fallCycle = fallCycle - 0.1f;
     }
 
+// 일정 시간 동안 빠른 속도 유지
+
+    void SpeedUp10sc
+    {
+        제어문
+            fallCycle = 0.5f;
+    }
+
 
 
