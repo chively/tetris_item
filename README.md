@@ -4,18 +4,30 @@ speed up
 
 break one line 
 
+break all
+
+10sc speed x2
+
+
+
+
+
 ... else
+
+
+
+
 
 
 # tetris_ui
 
-setting
+    setting
 
-grade
+    grade
 
-background
+    background
 
-.. else
+    .. else
 
 
 ex)
