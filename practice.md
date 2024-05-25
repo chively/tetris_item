@@ -5,10 +5,31 @@
     {
         bool isCleared = false;
 
-        // 완성된 행 == 행의 자식 갯수가 가로 크기
         foreach (Transform column in boardNode)
         {
             if (column.childCount >= 1)
+            {
+                foreach (Transform tile in column)
+                {
+                    Destroy(tile.gameObject);
+                }
+                column.DetachChildren();
+                isCleared = true;
+            }
+            
+        }
+        
+    }
+
+// 특정 라인 삭제
+
+    void DestroySpecificColumn()
+    {
+        bool isCleared = false;
+        
+        foreach (Transform column in boardNode)
+        {
+            if (특정라인 찾아야함)
             {
                 foreach (Transform tile in column)
                 {
