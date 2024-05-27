@@ -55,12 +55,19 @@
 
     void SpeedUp10sc
     {
-        제어문
-            fallCycle = 0.5f;
+        조건문
+            제어문
+                fallCycle = 0.5f;
     }
 
 // 점수 2배
 
+    void DoubleScore()
+    {
+        조건문
+            점수를 2배로 받는 시간
+                점수 2배
+    }
 // 
 
 
