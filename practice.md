@@ -21,19 +21,21 @@
         
     }
 
-// 특정 라인 삭제
+// 특정 라인 삭제?
 
     void DestroySpecificColumn()
     {
+        int dTime = 0;
         bool isCleared = false;
         
         foreach (Transform column in boardNode)
         {
-            if (특정라인 찾아야함)
+            while(dTime<=3)
             {
                 foreach (Transform tile in column)
                 {
                     Destroy(tile.gameObject);
+                    dTime+=1;
                 }
                 column.DetachChildren();
                 isCleared = true;
