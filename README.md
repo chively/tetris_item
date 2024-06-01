@@ -6,7 +6,8 @@ break one line
 
 break all
 
-10sc speed x2
+25sc speed x7
+![속도증가 아이템](https://github.com/chively/tetris_item/assets/163494032/ee49adee-4798-45a7-bbb1-832bacca551a)
 
 
 
