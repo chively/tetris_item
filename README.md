@@ -9,7 +9,8 @@ break four line
 25sc speed x7
 ![속도증가 아이템](https://github.com/chively/tetris_item/assets/163494032/ee49adee-4798-45a7-bbb1-832bacca551a)
 
-
+데모 시연 때
+게임 오버되기 전에 게임을 재시작하면 게임 속도가 7배로 시작하는 버그 존재
 
 
 
